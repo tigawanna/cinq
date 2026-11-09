@@ -1,3 +1,5 @@
+import { TigawannaCredit } from "@tigawanna/credit";
+import "@tigawanna/credit/styles.css";
 import { landingFooter } from "@/content/landing";
 import { AppConfig } from "@/utils/system";
 
@@ -12,6 +14,9 @@ export function LandingFooter() {
           <span className="font-semibold">{AppConfig.name}</span>
         </div>
         <p className="text-sm text-neutral-content">{landingFooter.tagline}</p>
+      </div>
+      <div className="mx-auto mt-6 flex max-w-6xl justify-center">
+        <TigawannaCredit position="inline" />
       </div>
     </footer>
   );

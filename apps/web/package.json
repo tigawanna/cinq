@@ -28,6 +28,7 @@
     "@tanstack/react-router-ssr-query": "^1.167.0",
     "@tanstack/react-start": "^1.168.10",
     "@tanstack/router-plugin": "^1.168.10",
+    "@tigawanna/credit": "file:/home/dennis/Desktop/code/fullstack/tigawanna/packages/credit",
     "better-auth": "^1.5.5",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
