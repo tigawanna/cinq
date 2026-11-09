@@ -1,7 +1,10 @@
 import puppeteer from "puppeteer";
 
 export async function scrapeCinemaxMovies() {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    headless: false,
+    devtools: true,
+  });
   try {
     // Or import puppeteer from 'puppeteer-core';
 
